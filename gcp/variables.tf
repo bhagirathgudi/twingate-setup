@@ -6,6 +6,10 @@ variable "region" {
   type = string
 }
 
+variable "zone" {
+  type = string
+}
+
 variable "twingate_token" {
   type      = string
   sensitive = true

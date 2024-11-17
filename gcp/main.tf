@@ -36,7 +36,6 @@ resource "google_compute_firewall" "default" {
 resource "google_compute_instance" "vm_instance_connector" {
   name         = "twingate-gcp-connector"
   machine_type = "e2-micro"
-
   boot_disk {
     initialize_params {
       image = "ubuntu-os-cloud/ubuntu-1804-bionic-v20220712"
