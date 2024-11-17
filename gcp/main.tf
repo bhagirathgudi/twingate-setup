@@ -1,5 +1,5 @@
 data "twingate_remote_network" "rn" {
-  id = var.remote_nw_id
+  name = var.remote_nw_id
 }
 
 resource "twingate_connector" "gcp_connector" {
